@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка Суші та Ролів</title>
+    <meta name="description" content="Найсмачніші суші та роли з доставкою. Свіжі інгредієнти та швидка доставка.">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background-color: #ff4757;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+        .card p {
+            color: #ff4757;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .btn {
+            background: linear-gradient(45deg, #ff4757, #ff6b81);
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+        }
+        footer {
+            background-color: #2f3542;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #ff4757;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Доставка Суші та Ролів</h1>
+    <p>Найсмачніші роли у твоєму місті!</p>
+</header>
+
+<div class="container">
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80" alt="Рол Філадельфія" loading="lazy">
+            <h3>Рол Філадельфія</h3>
+            <p>280 грн</p>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80" alt="Рол Каліфорнія" loading="lazy">
+            <h3>Рол Каліфорнія</h3>
+            <p>250 грн</p>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=600&q=80" alt="Дракон рол" loading="lazy">
+            <h3>Дракон рол</h3>
+            <p>320 грн</p>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Various_sushi%2C_beautiful_October_2019.jpg/600px-Various_sushi%2C_beautiful_October_2019.jpg" alt="Сет Класичний" loading="lazy">
+            <h3>Сет "Класичний"</h3>
+            <p>750 грн</p>
+            <button class="btn">Замовити</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Увага! Цей веб-сайт є навчальним проєктом, створеним виключно з освітньою метою в межах навчального курсу. Сайт не здійснює комерційної діяльності, не надає платних послуг і не призначений для отримання прибутку.</p>
+    <p>Зробила сайт: Богдан Камилла</p>
+    <div style="margin-top: 15px;">
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </div>
+</footer>
+
+</body>
+</html>
